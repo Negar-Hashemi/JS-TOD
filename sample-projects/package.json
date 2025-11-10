@@ -1,0 +1,13 @@
+{
+  "name": "sample-project-js-tod",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample project for JS-TOD demonstrating order-dependent flaky tests at suite, describe, and test levels.",
+  "scripts": {
+    "test": "jest",
+    "test:inband": "jest --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
